@@ -11,9 +11,9 @@ const Header = () => {
       <Navbar className="border-b-2">
         <Link
           to="/"
-          className="whitespace-nowrap self-center text-sm sm:text-xl font-semibold dark:text-white"
+          className="whitespace-nowrap self-center text-sm  font-semibold dark:text-white md:text-xl "
         >
-          <span className="mr-2 px-2 py-1 bg-gradient-to-br from-green-500 via-blue-500 to-blue-800 rounded-lg text-white">
+          <span className="mr-2 px-2 py-2 bg-gradient-to-br from-green-500 via-blue-500 to-blue-800 rounded-lg text-white">
             Sagnik's
           </span>
           <span>Cricket Blog</span>
@@ -41,7 +41,9 @@ const Header = () => {
           </Button>
 
           <Link to="/sign-in">
-            <Button gradientDuoTone="purpleToBlue">Sign In</Button>
+            <Button gradientDuoTone="greenToBlue" outline>
+              Sign In
+            </Button>
           </Link>
           <Navbar.Toggle></Navbar.Toggle>
         </div>
